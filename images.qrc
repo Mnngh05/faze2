@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>pc2.jpg</file>
+        <file>pc3.jpg</file>
+        <file>pc.jfif</file>
+        <file>icons8-glyph-48.png</file>
+        <file>icons8-home-50.png</file>
+        <file>icons8-job-50.png</file>
+        <file>icons8-male-user-50.png</file>
+        <file>icons8-message-50.png</file>
+        <file>icons8-search-50.png</file>
+        <file>linkde.png</file>
+        <file>icons8-glyph-96.png</file>
+        <file>icons8-home-96.png</file>
+        <file>icons8-message-100.png</file>
+        <file>icons8-search-100.png</file>
+        <file>icons8-job-90.png</file>
+        <file>icons8-male-user-100.png</file>
+        <file>../../Users/Administrator/Downloads/icons8-refresh-30.png</file>
+        <file>icons8-refresh-60.png</file>
+        <file>icons8-refresh-48.png</file>
+        <file>icons8-back-50.png</file>
+        <file>img-GDjVceTrFFVOkwzEICxl3.jpeg</file>
+    </qresource>
+    <qresource prefix="/new/prefix2"/>
+</RCC>
