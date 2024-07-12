@@ -1024,125 +1024,57 @@ border: 2px solid gray;
     </property>
     <layout class="QVBoxLayout" name="verticalLayout"/>
    </widget>
-   <widget class="QGroupBox" name="infoBox">
-    <property name="geometry">
-     <rect>
-      <x>2350</x>
-      <y>190</y>
-      <width>321</width>
-      <height>241</height>
-     </rect>
-    </property>
-    <property name="title">
-     <string/>
-    </property>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>20</y>
-       <width>81</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Name:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="nameLable">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>23</y>
-       <width>151</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Your name</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_7">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>100</y>
-       <width>111</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Expertise:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="expertiseLable">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>100</y>
-       <width>141</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>your expertise</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>180</y>
-       <width>111</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Country:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="countryLable">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>180</y>
-       <width>141</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>your loc</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QScrollArea" name="scrollcontents">
+   <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
       <x>2010</x>
-      <y>790</y>
-      <width>791</width>
-      <height>951</height>
+      <y>230</y>
+      <width>96</width>
+      <height>96</height>
      </rect>
     </property>
-    <property name="minimumSize">
-     <size>
-      <width>200</width>
-      <height>0</height>
-     </size>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/prefix1/icons8-plus-96.png);</string>
     </property>
-    <property name="widgetResizable">
-     <bool>true</bool>
+    <property name="text">
+     <string/>
     </property>
-    <widget class="QWidget" name="scrollAreaWidgetContents">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>789</width>
-       <height>949</height>
-      </rect>
-     </property>
-    </widget>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>2140</x>
+      <y>230</y>
+      <width>331</width>
+      <height>96</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Add job&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>1750</x>
+      <y>490</y>
+      <width>1251</width>
+      <height>571</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>1750</x>
+      <y>360</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;My jobs&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

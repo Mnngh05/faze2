@@ -8,6 +8,7 @@
 #include <QMouseEvent>
 #include "search.h"
 #include "userprof.h"
+#include "addpost.h"
 
 QString result;
 bool isUser;
@@ -28,6 +29,8 @@ home::home(QWidget *parent) :
     ui->pushButton_5->setStyleSheet("image: url(:/new/prefix1/icons8-male-user-100.png);border: 0px;");
     ui->label->setStyleSheet("background-color: rgb(230, 230, 230);");
     ui->pict->setStyleSheet("image: url(:/new/prefix1/img-GDjVceTrFFVOkwzEICxl3.jpeg);");
+    ui->pushButton_6->setStyleSheet("background-image: url(:/new/prefix1/icons8-male-user-50.png);");
+
     QLabel *label1 = new QLabel("<hr>Hi <br><br> I am Joy <br> Im a programing <br> please send to me posts about it   <br><br> thanks <br> bye<hr>");
     QLabel *label2 = new QLabel("<hr>hello guys <br><br> who can help me? <br> Im a fullstack <br> if you can help me <br> please send message to me <br><br> tnx <br> !<hr>");
     QLabel *label3 = new QLabel("<hr>im a developer <br><br> i search for finf a job <br> who can help me? <br><br><br><br> i cant find a good joooob<hr>");
@@ -39,6 +42,7 @@ home::home(QWidget *parent) :
     label3->setFixedWidth(561);
     label4->setFixedWidth(561);
 
+    ui->pushButton_7->setText("start a post");
     QVBoxLayout *layout = new QVBoxLayout;
     layout->addWidget(label1);
     layout->addWidget(label);
@@ -104,5 +108,12 @@ void home::on_pushButton_5_clicked()
     this->close();
     userprof *p = new userprof;
     p->showMaximized();
+}
+
+
+void home::on_pushButton_7_clicked()
+{
+    addPost *POST = new addPost;
+    POST->show();
 }
 

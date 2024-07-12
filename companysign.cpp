@@ -11,7 +11,7 @@
 #include "QSqlQuery"
 #include "QSqlQueryModel"
 int num;
-//QString globalName;
+QString globalCampId;
 
 companySign::companySign(QWidget *parent) :
     QMainWindow(parent),
@@ -77,8 +77,8 @@ void companySign::on_pushButton_2_clicked()
     pass = ui->passlineEdit->text();
     loc = ui->loclineEdit->text();
     phone = ui->phonelineEdit->text();
-    globalId = id;
-    q.exec("SELECT id FROM user WHERE id = '"+id+"'");
+    globalCampId = id;
+    q.exec("SELECT id FROM company WHERE id = '"+id+"'");
     bool isEmptyPass = true;
     bool isEmptyId = true;
     bool isEmptyName = true;
@@ -118,7 +118,7 @@ void companySign::on_pushButton_2_clicked()
             QMessageBox::warning(this,"Incorrect", "Please enter the correct number","Try again");
         }
     else if(q.first()){
-        QMessageBox::warning(this,"Invalid", "Please enter another name");
+        QMessageBox::warning(this,"Invalid", "Please enter another id");
     }
     else if(isEmptyphone){
         QMessageBox::warning(this,"Null input", "Please enter your phone");

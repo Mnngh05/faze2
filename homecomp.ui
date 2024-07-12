@@ -1024,123 +1024,42 @@ border: 2px solid gray;
     </property>
     <layout class="QVBoxLayout" name="verticalLayout"/>
    </widget>
-   <widget class="QScrollArea" name="scrollcontents">
+   <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>2010</x>
-      <y>790</y>
-      <width>791</width>
-      <height>951</height>
-     </rect>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>200</width>
-      <height>0</height>
-     </size>
-    </property>
-    <property name="widgetResizable">
-     <bool>true</bool>
-    </property>
-    <widget class="QWidget" name="scrollAreaWidgetContents">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>789</width>
-       <height>949</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QGroupBox" name="infoBox">
-    <property name="geometry">
-     <rect>
-      <x>2350</x>
-      <y>190</y>
-      <width>321</width>
-      <height>241</height>
+      <x>1820</x>
+      <y>210</y>
+      <width>751</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="title">
      <string/>
     </property>
-    <widget class="QLabel" name="label_6">
+    <widget class="QPushButton" name="pushButton_6">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>20</y>
-       <width>81</width>
-       <height>41</height>
+       <x>30</x>
+       <y>30</y>
+       <width>50</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="text">
-      <string>Name:</string>
+      <string/>
      </property>
     </widget>
-    <widget class="QLabel" name="nameLable">
+    <widget class="QPushButton" name="pushButton_7">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>23</y>
-       <width>151</width>
-       <height>41</height>
+       <x>100</x>
+       <y>30</y>
+       <width>611</width>
+       <height>50</height>
       </rect>
      </property>
      <property name="text">
-      <string>Your name</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_7">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>100</y>
-       <width>111</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Expertise:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="expertiseLable">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>100</y>
-       <width>141</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>your expertise</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>180</y>
-       <width>111</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Country:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="countryLable">
-     <property name="geometry">
-      <rect>
-       <x>140</x>
-       <y>180</y>
-       <width>141</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>your loc</string>
+      <string>start post...</string>
      </property>
     </widget>
    </widget>

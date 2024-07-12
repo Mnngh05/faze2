@@ -169,7 +169,7 @@ border-color: rgb(255, 255, 255);</string>
       </rect>
      </property>
      <property name="text">
-      <string>I'm not a company</string>
+      <string>I'm a company</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
@@ -204,29 +204,6 @@ border-color: rgb(255, 255, 255);</string>
       <string>Enter your id...</string>
      </property>
     </widget>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>1120</x>
-      <y>260</y>
-      <width>80</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="delnamelineEdit">
-    <property name="geometry">
-     <rect>
-      <x>992</x>
-      <y>100</y>
-      <width>281</width>
-      <height>101</height>
-     </rect>
-    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

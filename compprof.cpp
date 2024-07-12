@@ -6,7 +6,7 @@
 #include "companynetwork.h"
 #include "homecomp.h"
 #include "messagecomp.h"
-
+#include "addjob.h"
 compprof::compprof(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::compprof)
@@ -28,3 +28,6 @@ compprof::~compprof()
 {
     delete ui;
 }
+
+
+

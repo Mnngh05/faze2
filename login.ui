@@ -65,7 +65,7 @@
       <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
      </property>
      <property name="text">
-      <string>Name</string>
+      <string>Id</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_2">

@@ -87,9 +87,6 @@ void userprof::on_searchText_returnPressed()
 
 void userprof::on_pushButton_6_clicked()
 {
-    QSqlQuery q;
-    QString cap;
-    cap = ui->lineEdit->text();
-    q.exec("INSERT INTO post INNER JOIN user ON post.id = user.id(caption) VALUES('"+cap+"')");
+
 }
 

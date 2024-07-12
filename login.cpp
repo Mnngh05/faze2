@@ -40,10 +40,10 @@ void login::on_pushButton_2_clicked()
 void login::on_pushButton_clicked()
 {
     QSqlQuery q;
-    QString name , pass;
-    name = ui->lineEdit->text();
+    QString id , pass;
+    id = ui->lineEdit->text();
     pass = ui->lineEdit_2->text();
-    q.exec("SELECT fullName FROM info WHERE fullName = '"+name+"' AND password = '"+pass+"'");
+    q.exec("SELECT id FROM user WHERE id = '"+id+"' AND pass = '"+pass+"'");
     if(q.first()){
     home *H = new home;
            this->close();

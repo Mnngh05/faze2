@@ -1131,7 +1131,7 @@ border: 2px solid gray;
    <widget class="QLabel" name="label_14">
     <property name="geometry">
      <rect>
-      <x>220</x>
+      <x>40</x>
       <y>190</y>
       <width>211</width>
       <height>111</height>
@@ -1144,7 +1144,7 @@ border: 2px solid gray;
    <widget class="QLabel" name="label_15">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>270</x>
       <y>190</y>
       <width>151</width>
       <height>111</height>
@@ -1152,42 +1152,6 @@ border: 2px solid gray;
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt; id&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_16">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>1010</y>
-      <width>171</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Add caption</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>1010</y>
-      <width>611</width>
-      <height>101</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_6">
-    <property name="geometry">
-     <rect>
-      <x>230</x>
-      <y>1140</y>
-      <width>211</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Add</string>
     </property>
    </widget>
   </widget>

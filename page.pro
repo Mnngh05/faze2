@@ -10,6 +10,8 @@ CONFIG += c++11
 
 SOURCES += \
     account.cpp \
+    addjob.cpp \
+    addpost.cpp \
     companyjob.cpp \
     companylog.cpp \
     companynetwork.cpp \
@@ -35,6 +37,8 @@ SOURCES += \
 
 HEADERS += \
     account.h \
+    addjob.h \
+    addpost.h \
     companyjob.h \
     companylog.h \
     companynetwork.h \
@@ -58,6 +62,8 @@ HEADERS += \
     userprof.h
 
 FORMS += \
+    addjob.ui \
+    addpost.ui \
     companyjob.ui \
     companylog.ui \
     companynetwork.ui \

@@ -3,6 +3,13 @@
 #include "homecomp.h"
 #include "companynetwork.h"
 #include "messagecomp.h"
+#include "addjob.h"
+#include "companysign.h"
+
+#include <QSqlDatabase>
+#include "QSqlDriver"
+#include "QSqlQuery"
+#include "QSqlQueryModel"
 companyjob::companyjob(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::companyjob)
@@ -18,8 +25,21 @@ companyjob::companyjob(QWidget *parent) :
     ui->pushButton_3->setStyleSheet("background-color: rgb(230, 230, 230);image: url(:/new/prefix1/icons8-job-90.png);border: 0px;");
     ui->pushButton_4->setStyleSheet("image: url(:/new/prefix1/icons8-message-100.png);border: 0px;");
     ui->pushButton_5->setStyleSheet("image: url(:/new/prefix1/icons8-male-user-100.png);border: 0px;");
-    ui->infoBox->hide();
     ui->label_4->setStyleSheet("background-color: rgb(230, 230, 230);");
+
+    ui->pushButton_6->setStyleSheet("background-image: url(:/new/prefix1/icons8-plus-96.png);");
+
+    QSqlDatabase database;
+    database = QSqlDatabase::addDatabase("QSQLITE");
+    database.setDatabaseName("c:\\info.db");
+    database.open();
+    QString id  = globalCampId;
+    QSqlQuery q;
+    q.exec("SELECT title , company, workplaceType, jobType FROM company WHERE id = '"+id+"' ORDER BY time1 DESC");
+    QSqlQueryModel *qm = new QSqlQueryModel;
+    qm->setQuery(q);
+    ui->tableView->setModel(qm);
+
 
 }
 
@@ -50,3 +70,10 @@ void companyjob::on_pushButton_clicked()
     homecomp *Home = new homecomp;
     Home->showMaximized();
 }
+
+void companyjob::on_pushButton_6_clicked()
+{
+    addJob *a  = new addJob;
+    a->show();
+}
+

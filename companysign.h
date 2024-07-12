@@ -2,7 +2,7 @@
 #define COMPANYSIGN_H
 
 #include <QMainWindow>
-
+extern QString globalCampId;
 namespace Ui {
 class companySign;
 }

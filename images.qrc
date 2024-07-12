@@ -21,6 +21,9 @@
         <file>icons8-refresh-48.png</file>
         <file>icons8-back-50.png</file>
         <file>img-GDjVceTrFFVOkwzEICxl3.jpeg</file>
+        <file>icons8-plus-40.png</file>
+        <file>icons8-plus-48.png</file>
+        <file>icons8-plus-96.png</file>
     </qresource>
     <qresource prefix="/new/prefix2"/>
 </RCC>

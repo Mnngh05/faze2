@@ -15,8 +15,7 @@ page1::page1(QWidget *parent)
     ui->pushButton->setStyleSheet("background-color: rgb(80, 177, 188);");
 
 
-    home *h =new home;
-    h->showMaximized();
+
 
 }
 

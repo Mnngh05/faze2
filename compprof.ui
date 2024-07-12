@@ -14,35 +14,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QScrollArea" name="scrollcontents">
-    <property name="geometry">
-     <rect>
-      <x>2020</x>
-      <y>790</y>
-      <width>791</width>
-      <height>951</height>
-     </rect>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>200</width>
-      <height>0</height>
-     </size>
-    </property>
-    <property name="widgetResizable">
-     <bool>true</bool>
-    </property>
-    <widget class="QWidget" name="scrollAreaWidgetContents">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>789</width>
-       <height>949</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>

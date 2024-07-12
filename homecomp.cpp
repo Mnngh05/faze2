@@ -21,7 +21,6 @@ homecomp::homecomp(QWidget *parent) :
     ui->pushButton_3->setStyleSheet("image: url(:/new/prefix1/icons8-job-90.png);border: 0px;");
     ui->pushButton_4->setStyleSheet("image: url(:/new/prefix1/icons8-message-100.png);border: 0px;");
     ui->pushButton_5->setStyleSheet("image: url(:/new/prefix1/icons8-male-user-100.png);border: 0px;");
-    ui->infoBox->hide();
     ui->label->setStyleSheet("background-color: rgb(230, 230, 230);");
 
 }
@@ -64,3 +63,9 @@ void homecomp::on_searchText_returnPressed()
     search *ser = new search;
     ser->show();
 }
+
+void homecomp::on_pushButton_7_clicked()
+{
+
+}
+

@@ -15,6 +15,9 @@ public:
     explicit compprof(QWidget *parent = nullptr);
     ~compprof();
 
+private slots:
+
+
 private:
     Ui::compprof *ui;
 };

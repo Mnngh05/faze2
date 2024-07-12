@@ -13,8 +13,6 @@ companylog::companylog(QWidget *parent) :
     ui(new Ui::companylog)
 {
     ui->setupUi(this);
-
-    ui->setupUi(this);
      ui->pushButton->setStyleSheet("font: 12pt 'MS Shell Dlg 2';color: rgb(255, 255, 255);background-color: rgb(6, 155, 255);");
       ui->pushButton_2->setStyleSheet("font: 12pt 'MS Shell Dlg 2';color: rgb(255, 255, 255);background-color: rgb(6, 155, 255);");
     ui->lineEdit_2->setEchoMode(QLineEdit::Password);
